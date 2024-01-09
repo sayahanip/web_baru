@@ -1,0 +1,8 @@
+CREATE DATABASE IF NOT EXISTS feedback_db;
+USE feedback_db;
+
+CREATE TABLE IF NOT EXISTS feedback (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nama VARCHAR(255) NOT NULL,
+    saran TEXT NOT NULL
+);
